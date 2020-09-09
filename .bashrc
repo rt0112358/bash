@@ -117,6 +117,9 @@ alias sysinfo="screenfetch"
 alias eclipse="nohup eclipse&>/dev/null &"
 alias vmplayer="nohup vmplayer&>/dev/null &"
 
+# Jflap.org
+alias jflap="nohup java -jar ~/TheoryOfComp/JFLAP7.1.jar&>/dev/null &"
+
 #TODO: Create function for all nohup aliases
 
 # Change java version
