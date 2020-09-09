@@ -103,14 +103,19 @@ alias python="python3"
 alias new="clear && cd ~"
 alias onyx="ssh -Y ryanthompson317@onyx.boisestate.edu"
 alias update="
-    sudo apt update
-    sudo apt -y upgrade
-    sudo apt -y autoremove
-    conda update conda --all --yes
-    conda update anaconda --all --yes"
+    sudo apt update | lolcat
+    sudo apt -y upgrade | lolcat
+    sudo apt -y autoremove | lolcat
+    conda update conda --all --yes | lolcat
+    conda update anaconda --all --yes | lolcat
+    snap refresh --list | lolcat
+    echo
+    fortune | lolcat
+    echo"
 alias tetris="petris"
 alias sysinfo="screenfetch"
 alias eclipse="nohup eclipse&>/dev/null &"
+alias vmplayer="nohup vmplayer&>/dev/null &"
 
 #TODO: Create function for all nohup aliases
 
@@ -120,7 +125,7 @@ alias changeJava="
     java -version"
 
 # Disables the middle button on the touchpad
-alias no="xinput set-button-map 11 1 0 3 4 5 6 7"
+alias no="xinput set-button-map 14 1 0 3 4 5 6 7"
 
 # Border Control
 # Usage:
