@@ -117,6 +117,19 @@ alias sysinfo="screenfetch"
 alias eclipse="nohup eclipse&>/dev/null &"
 alias vmplayer="nohup vmplayer&>/dev/null &"
 
+# Switch git profile
+alias gitbsu='
+    git config --global user.email "ryanthompson317@u.boisestate.edu"
+    git config --global user.name "ryanthompson317"
+    git config --list'
+alias githome='
+    git config --global user.email "rt0112358@gmail.com"
+    git config --global user.name "rt0112358"
+    git config --list'
+
+# Remove unpushed git commit
+alias gitreset="git reset --soft HEAD~1"
+
 # Jflap.org
 alias jflap="nohup java -jar ~/TheoryOfComp/JFLAP7.1.jar&>/dev/null &"
 
