@@ -103,12 +103,12 @@ alias python="python3"
 alias new="clear && cd ~"
 alias onyx="ssh -Y ryanthompson317@onyx.boisestate.edu"
 alias update="
-    sudo apt update | lolcat
-    sudo apt -y upgrade | lolcat
-    sudo apt -y autoremove | lolcat
-    conda update conda --all --yes | lolcat
-    conda update anaconda --all --yes | lolcat
-    snap refresh --list | lolcat
+    sudo apt update
+    sudo apt -y upgrade
+    sudo apt -y autoremove
+    conda update conda --all --yes
+    conda update anaconda --all --yes
+    snap refresh --list
     echo
     fortune | lolcat
     echo"
