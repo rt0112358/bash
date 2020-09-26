@@ -100,7 +100,7 @@ export PATH="/home/bob/anaconda3/bin:$PATH"
 alias brave="nohup brave-browser&>/dev/null &"
 alias google-chrome="nohup google-chrome&>/dev/null &"
 alias python="python3"
-alias new="clear && cd ~"
+alias new="clear && cd ~ && ls"
 alias onyx="ssh -Y ryanthompson317@onyx.boisestate.edu"
 alias update="
     sudo apt update
