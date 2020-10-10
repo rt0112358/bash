@@ -130,7 +130,7 @@ alias githome='
 # Remove unpushed git commit
 alias gitreset="git reset --soft HEAD~1"
 
-alias mysql="mycli -u root"
+alias mysql_colored="mycli -u root"
 
 # Jflap.org
 alias jflap="nohup java -jar ~/TheoryOfComp/JFLAP7.1.jar&>/dev/null &"
