@@ -116,6 +116,8 @@ alias tetris="petris"
 alias sysinfo="screenfetch"
 alias eclipse="nohup eclipse&>/dev/null &"
 alias vmplayer="nohup vmplayer&>/dev/null &"
+alias goodnight="systemctl suspend"
+alias bedtime="systemctl suspend"
 
 # Switch git profile
 alias gitbsu='
