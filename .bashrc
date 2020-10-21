@@ -173,3 +173,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+function alias_help() {
+    echo "cd <alias_file_name> /usr/local/bin/";
+    echo "chmod +x <alias_file_name>";
+}
