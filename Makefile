@@ -7,6 +7,6 @@ push:
 	@githome
 	@git status
 	@git add .
-	@git commit -m "Makefile auto commit"
+	@git commit -m "Start adding bash commands and such"
 	@git status
 	@git push
