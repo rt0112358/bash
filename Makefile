@@ -1,12 +1,24 @@
 #!/bin/bash
-
+###################################################
+# Makefile
+# 
+# Setup for pushing updates via git 
+# 
+# Usage for make push:
+#	$ make push msg="commit message"
+###################################################
 all:
-	@echo "Nothing to do in this repo"
+	@echo "Git Makefile\n"
+	git status
+	@echo
+	@echo To push to Github:
+	@echo '    make push msg="enter git commit message"'
+	@echo
 
 push:
-	@githome
+	@githome 
 	@git status
 	@git add .
-	@git commit -m "Start adding bash commands and such"
+	git commit -m "$(msg)"
 	@git status
 	@git push
