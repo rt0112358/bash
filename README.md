@@ -60,6 +60,14 @@ $ hollywood
 ![Hollywood](hollywood.png)
 &nbsp;  
 &nbsp;   
+### **Internet speed test CLI**
+*After cloning this bash repo...*
+```sh
+$ ./install_speed.sh
+$ speedtest
+```
+&nbsp;  
+&nbsp;   
 ### **next bash tool**
 ```console
 $ [insert next bash tool] # placeholder
