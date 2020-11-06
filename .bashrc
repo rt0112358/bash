@@ -138,6 +138,8 @@ alias gitreset="git reset --soft HEAD~1"
 # Jflap.org
 alias jflap="nohup java -jar ~/TheoryOfComp/JFLAP7.1.jar&>/dev/null &"
 
+alias sshpi="ssh pi@billbobpie.ddns.net"
+
 #TODO: Create function for all nohup aliases
 
 # Change java version

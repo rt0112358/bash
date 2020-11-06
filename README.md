@@ -5,7 +5,16 @@
 &nbsp;  
 &nbsp;  
 
+### **prereq**
+**install [linux kubuntu 20.04](https://kubuntu.org/getkubuntu/)**
+```sh
+$ sudo apt -y isntall screenfetch
+```
+*screenfetch output*
+![screenfetch](screenfetch.png)
 
+&nbsp;  
+&nbsp; 
 ### **grep for multiple phrases**
 ```bash
 $ ls | grep 'phrase1\|phrase2' 
@@ -40,7 +49,7 @@ $ nano key.txt #create key
 ```bash
 greatPassword42!
 ```
-```bash
+```console
 $ mcrypt test_mcrypt.txt --keyfile key.txt # encrypt file 
 $ rm test_mcrypt.txt # remove original
 $ ls
@@ -87,6 +96,27 @@ Not md-bash
 
 $ 
 ```
+&nbsp;  
+&nbsp;   
+### **Running bash via python**
+*prereq*
+```sh
+$ sudo apt -y install cmatrix
+```
+*bash.py*
+```python
+import os
+
+bash_command = os.popen('konsole --fullscreen -e cmatrix')
+output = bash_command.read()
+print(output)
+```
+```sh
+$ python bash.py
+```
+*bash.py outputs cmatrix*
+![bash.py output](cmatrix.gif)
+
 
 &nbsp;  
 &nbsp;  
