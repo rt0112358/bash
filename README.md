@@ -116,7 +116,12 @@ $ python bash.py
 ```
 *bash.py outputs cmatrix*
 ![bash.py output](cmatrix.gif)
-
+&nbsp;  
+&nbsp;   
+### **Send command via SSH**
+```sh
+$ ssh pi@localhost 'ls -l'
+```
 
 &nbsp;  
 &nbsp;  
