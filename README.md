@@ -9,6 +9,7 @@
 **install [linux kubuntu 20.04](https://kubuntu.org/getkubuntu/)**
 ```sh
 $ sudo apt -y isntall screenfetch
+$ screenfetch
 ```
 *screenfetch output*
 ![screenfetch](screenfetch.png)
