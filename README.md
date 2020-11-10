@@ -60,13 +60,20 @@ key.txt  README.md  test_mcrypt.txt.nc  test_mcrypt.txt
 ```
 &nbsp;   
 &nbsp;  
-### **Look pro**
-```console
-$ sudo apt -y install hollywood
-$ hollywood
+### **Require a password/key to view decrypted file**
+```bash
+$ mcrypt encrypted_file.txt; rm encrypted_file.txt # only the encrypted file remains
+Enter passphrase:
+$ mcrypt -d encrypted_file.txt.nc
+Enter passphrase: 
+File encrypted_file.txt was encrypted.
 ```
+*Now you can encrypt all of your files so no one view them without the key/passphrase*
+&nbsp;   
+&nbsp;  
+### **Look pro**
 &nbsp;&nbsp;&nbsp;&nbsp; *Hollywood Screenshot*
-![Hollywood](hollywood.png)
+![Hollywood](hollywood.gif)
 &nbsp;  
 &nbsp;   
 ### **Internet speed test CLI**
