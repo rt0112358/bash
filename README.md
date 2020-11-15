@@ -130,6 +130,25 @@ $ python bash.py
 ```sh
 $ ssh pi@localhost 'ls -l'
 ```
+&nbsp;  
+&nbsp;   
+### **A few randoms**
+*Have a dog running accross your screen*
+```sh
+$ sudo apt -y install oneko
+$ oneko -dog -fg cyan
+```
+*Cow delivered fortune*
+```sh
+$ sudo apt -y install fortune 
+$ sudo apt -y install xcowsay
+$ fortune | xcowsay
+```
+*Generate two random addresses*
+```bash
+$ sudo apy -y install rig
+$ rig -c 2
+```
 
 &nbsp;  
 &nbsp;  
