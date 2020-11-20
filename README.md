@@ -117,6 +117,7 @@ $ ssh pi@localhost 'ls -l'
 $ sudo apt -y install oneko
 $ oneko -dog -fg cyan
 ```
+![oneko dog](oneko_dog.gif)  
 *Cow delivered fortune*
 ```sh
 $ sudo apt -y install fortune 
