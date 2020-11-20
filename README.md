@@ -29,7 +29,7 @@ $ nano test_file.txt #create test file
 ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; *GNU nano &nbsp;test_mcrypt.txt*
+*GNU nano &nbsp;test_mcrypt.txt*
 ```bash
 encrypt this file with mcrypt
 
@@ -46,7 +46,7 @@ testing...
 ```bash
 $ nano key.txt #create key
 ```
-&nbsp;&nbsp;&nbsp;&nbsp; *GNU nano &nbsp;key.txt*
+*GNU nano &nbsp;key.txt*
 ```bash
 greatPassword42!
 ```
@@ -73,7 +73,7 @@ File encrypted_file.txt was encrypted.
 &nbsp;   
 &nbsp;  
 ### **Look pro**
-&nbsp;&nbsp;&nbsp;&nbsp; *Hollywood Screenshot*
+*Hollywood Screenshot*
 ![Hollywood](hollywood.gif)
 &nbsp;  
 &nbsp;   
@@ -82,27 +82,6 @@ File encrypted_file.txt was encrypted.
 ```sh
 $ ./install_speed.sh
 $ speedtest
-```
-&nbsp;  
-&nbsp;   
-### **next bash tool**
-```console
-$ [insert next bash tool] # placeholder
-$ echo This is md-console
-This code section is md-console 
-
-    ```console
-    $
-    ```
-
-$ echo Not md-bash
-Not md-bash 
-
-    ```bash
-    $ 
-    ```
-
-$ 
 ```
 &nbsp;  
 &nbsp;   
@@ -149,7 +128,44 @@ $ fortune | xcowsay
 $ sudo apy -y install rig
 $ rig -c 2
 ```
+&nbsp;  
+&nbsp;   
+### **Wikipedia Data**
+_Could be useful for gathering semi-random data for data science/machine learning programs_  
+&nbsp;  
+*Prereq*
+```bash
+$ sudo apt -y install nodejs
+```
+*Wiki package install*
+```bash
+$ sudo apt -y install wikit -g
+```
+*Run a wiki query*
+```bash
+$ wikit "machine learning"
+```
+*wikit machine learning output*
+![wikit machine learning](wikit.png)
+&nbsp;  
+&nbsp;   
+### **next bash tool**
+```console
+$ [insert next bash tool] # placeholder
+$ echo This is md-console
+This code section is md-console 
 
+    ```console
+    $
+    ```
+$ echo Not md-bash
+Not md-bash 
+
+    ```bash
+    $ 
+    ```
+$ Do something
+```
 &nbsp;  
 &nbsp;  
 &nbsp;  
